@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | RICHIE'S DELIGHT CATERING</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    .menu-card img {
+      transition: transform 0.4s ease;
+    }
+    .menu-card:hover img {
+      transform: scale(1.08) rotate(1deg);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+
+<header class="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+    <div class="flex items-center space-x-3">
+      <img src="IMAGE/logo.png" alt="Richie's Delight Logo" class="h-10">
+      <h1 class="font-bold text-xl">RICHIE'S DELIGHT</h1>
+    </div>
+    <nav class="hidden md:flex space-x-6">
+      <a href="Index.html" class="hover:text-red-600">Home</a>
+      <a href="Menu.html" class="text-red-600 font-semibold">Menu</a>
+      <a href="About.html" class="hover:text-red-600">About</a>
+      <a href="Contact.html" class="hover:text-red-600">Contact</a>
+    </nav>
+    <button id="menu-btn" class="md:hidden text-2xl mr-5 text-gray-700 focus:outline-none">☰</button>
+  </div>
+  <div id="mobile-menu" class="hidden bg-white md:hidden px-6 py-4 rounded-b-2xl shadow-lg mx-4 mt-2">
+    <a href="Index.html" class="block py-2 hover:text-red-600">Home</a>
+    <a href="Menu.html" class="block py-2 text-red-600 font-semibold">Menu</a>
+    <a href="About.html" class="block py-2 hover:text-red-600">About</a>
+    <a href="Contact.html" class="block py-2 hover:text-red-600">Contact</a>
+  </div>
+</header>
+
+
+<section class="relative bg-cover bg-center h-[60vh] mt-20" style="background-image: url('IMAGE/menu.jfif');">
+  <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <h1 class="text-5xl font-bold text-White" data-aos="fade-in">Our Menu</h1>
+  </div>
+</section>
+
+
+<section class="max-w-7xl mx-auto px-6 py-16 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="flip-left">
+    <img src="IMAGE/item 1.jpg" class="w-full h-56 object-cover" alt="Dish 1">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2">Jollof Rice</h3>
+      <p class="text-gray-600 text-sm mb-3">Okro Soup With Crab And Fish</p>
+      <p class="text-red-600 font-bold">₦15,000 for 2 1/2 liter</p>
+    </div>
+  </div>
+
+  
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="flip-right">
+    <img src="IMAGE/item 2.jpg" class="w-full h-56 object-cover" alt="Dish 2">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2">Jollof Rice</h3>
+      <p class="text-gray-600 text-sm mb-3">Classic Nigerian jollof rice with chicken.</p>
+      <p class="text-red-600 font-bold">₦10,000</p>
+    </div>
+  </div>
+
+
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="zoom-in">
+    <img src="IMAGE/item 3.jpg" class="w-full h-56 object-cover" alt="Dish 3">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2">Pounded Yam With vegetable Soup</h3>
+      <p class="text-gray-600 text-sm mb-3">Rich vegetable soup with Cow meat and Assorted.</p>
+      <p class="text-red-600 font-bold">₦5,000</p>
+    </div>
+  </div>
+
+
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="fade-up">
+    <img src="IMAGE/item 4.jpg" class="w-full h-56 object-cover" alt="Dish 4">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2">Chiken,Fish And Snail </h3>
+      <p class="text-red-600 font-bold">₦20,000</p>
+    </div>
+  </div>
+
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="flip-up">
+    <img src="IMAGE/item 5.jpg" class="w-full h-56 object-cover" alt="Dish 5">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2">Suprise Packed</h3>
+      <p class="text-gray-600 text-sm mb-3">For suprise</p>
+      <p class="text-red-600 font-bold">₦100,000</p>
+    </div>
+  </div>
+
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="zoom-out">
+    <img src="IMAGE/item 6.jpg" class="w-full h-56 object-cover" alt="Dish 6">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2"></h3>
+      <p class="text-gray-600 text-sm mb-3"></p>
+      <p class="text-red-600 font-bold"></p>
+    </div>
+  </div>
+  <div class="menu-card bg-white shadow-lg rounded-lg overflow-hidden" data-aos="zoom-out">
+    <img src="IMAGE/item 7.jpg" class="w-full h-56 object-cover" alt="Dish 6">
+    <div class="p-5">
+      <h3 class="font-semibold text-xl mb-2">Moi Moi</h3>
+      <p class="text-gray-600 text-sm mb-3">Moi Moi with Custard</p>
+      <p class="text-red-600 font-bold">₦5,000</p>
+    </div>
+  </div>
+
+
+
+</section>
+
+
+ 
+<section class="bg-gray-100 py-16 px-6 mt-12" id="reservation">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-red-600 mb-6" data-aos="fade-down">
+      Make a Reservation
+    </h2>
+    <p class="text-gray-700 mb-10" data-aos="fade-up">
+      Book your table or catering service in advance and enjoy authentic Nigerian delicacies with no wait time.
+    </p>
+
+   
+    <form id="reservationForm" class="bg-white shadow-lg rounded-lg p-8 grid md:grid-cols-2 gap-6" data-aos="zoom-in">
+
+      <div class="flex flex-col">
+        <label class="text-gray-700 font-semibold mb-2">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500 focus:outline-none" required>
+      </div>
+
+  
+      <div class="flex flex-col">
+        <label class="text-gray-700 font-semibold mb-2">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500 focus:outline-none" required>
+      </div>
+
+  
+      <div class="flex flex-col">
+        <label class="text-gray-700 font-semibold mb-2">Date</label>
+        <input type="date" id="date"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500 focus:outline-none" required>
+      </div>
+
+    
+      <div class="flex flex-col">
+        <label class="text-gray-700 font-semibold mb-2">Time</label>
+        <input type="time" id="time"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500 focus:outline-none" required>
+      </div>
+
+  
+      <div class="flex flex-col">
+        <label class="text-gray-700 font-semibold mb-2">Number of Guests</label>
+        <input type="number" id="guests" min="1" placeholder="e.g. 4"
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500 focus:outline-none" required>
+      </div>
+
+   
+      <div class="flex flex-col md:col-span-2">
+        <label class="text-gray-700 font-semibold mb-2">Special Request</label>
+        <textarea id="request" rows="4" placeholder="Write any special request..."
+          class="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500 focus:outline-none"></textarea>
+      </div>
+
+      <div class="md:col-span-2 flex justify-center">
+        <button id="submitBtn" type="submit"
+          class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition duration-300 flex items-center gap-2">
+          <span id="btnText">Reserve Now</span>
+          <svg id="loadingIcon" class="animate-spin h-5 w-5 text-white hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+          </svg>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<script>
+  document.getElementById("reservationForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let submitBtn = document.getElementById("submitBtn");
+    let btnText = document.getElementById("btnText");
+    let loadingIcon = document.getElementById("loadingIcon");
+
+   
+    btnText.textContent = "Sending...";
+    loadingIcon.classList.remove("hidden");
+    submitBtn.disabled = true;
+
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+    let date = document.getElementById("date").value;
+    let time = document.getElementById("time").value;
+    let guests = document.getElementById("guests").value;
+    let request = document.getElementById("request").value;
+
+    let whatsappNumber = "2348035022223";
+
+   
+    let message = `Hello, I want to make a reservation:%0A
+    👤 Name: ${name}%0A
+    📞 Phone: ${phone}%0A
+    📅 Date: ${date}%0A
+    ⏰ Time: ${time}%0A
+    👥 Guests: ${guests}%0A
+    📝 Special Request: ${request}`;
+
+    setTimeout(() => {
+      window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+
+    
+      btnText.textContent = "Reserve Now";
+      loadingIcon.classList.add("hidden");
+      submitBtn.disabled = false;
+    }, 1200); 
+  });
+</script>
+
+
+
+<footer class="bg-red-600 text-white pt-10 pb-6 mt-10">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <h2 class="text-2xl font-bold mb-4">RICHIE'S DELIGHT CATERING</h2>
+      <p class="text-red-100">Serving authentic Nigerian dishes with love and tradition.</p>
+    </div>
+    <div>
+      <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+      <ul class="space-y-2 text-red-100">
+        <li><a href="Index.html" class="hover:text-white">Home</a></li>
+        <li><a href="Menu.html" class="hover:text-white">Menu</a></li>
+        <li><a href="About.html" class="hover:text-white">About</a></li>
+        <li><a href="Contact.html" class="hover:text-white">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-xl font-semibold mb-4">Subscribe</h2>
+      <form class="flex">
+        <input type="email" placeholder="Enter your email" class="w-full px-3 py-2 rounded-l-lg text-gray-900">
+        <button type="submit" class="bg-black px-4 py-2 rounded-r-lg hover:bg-gray-800">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="border-t border-red-400 my-6"></div>
+<div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+  <p class="text-red-100">&copy; 2025 RICHIE'S DELIGHT CATERING. All rights reserved.</p>
+  
+  <div class="flex space-x-4 mt-4 md:mt-0">
+    <a href="https://facebook.com/Rachel Emmanuel" target="_blank" class="hover:text-black">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://instagram.com/rachel.emmanuel.5458" target="_blank" class="hover:text-black">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/2348035022223" target="_blank" class="hover:text-black">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</div>
+
+</footer>
+
+<script>
+  AOS.init();
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+</body>
+</html>
